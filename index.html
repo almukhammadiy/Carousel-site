@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle href=" #" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1"
+                aria-current="true"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"
+                class=""></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"
+                class=""></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item carousel-item-next carousel-item-start">
+                <svg class="bd-placeholder-img" width="100%" height="400px" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#777"></rect>
+                </svg>
+
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Example headline.</h1>
+                        <p>Some representative placeholder content for the first slide of the carousel.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <svg class="bd-placeholder-img" width="100%" height="400px" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#777"></rect>
+                </svg>
+
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Another example headline.</h1>
+                        <p>Some representative placeholder content for the second slide of the carousel.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item active carousel-item-start">
+                <svg class="bd-placeholder-img" width="100%" height="400px" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#777"></rect>
+                </svg>
+
+                <div class="container">
+                    <div class="carousel-caption text-end">
+                        <h1>One more for good measure.</h1>
+                        <p>Some representative placeholder content for the third slide of this carousel.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container">
+        <div class="row pt-5">
+            <ul class="d-flex ">
+                <li class="list-unstyled text-center">
+                    <img class="rounded mx-auto d-block" src="./assets/img/circle.png" alt="circle" width="35%">
+                    <h2 class="text-center text-muted ">Heading</h2>
+                    <p class="text-center text-muted">Some representative placeholder content for the three columns of
+                        text below the carousel. This is the first column.</p>
+                    <a href="#" class="btn btn-secondary">View details »</a href="#" class="btn btn-secondary">
+                </li>
+                <li class="list-unstyled text-center">
+                    <img class="rounded mx-auto d-block" src="./assets/img/circle.png" alt="circle" width="35%">
+                    <h2 class="text-center text-muted">Heading</h2>
+                    <p class="text-center text-muted">Some representative placeholder content for the three columns of
+                        text below the carousel. This is the first column.</p>
+                    <a href="#" class="btn btn-secondary">View details »</a href="#" class="btn btn-secondary">
+                </li>
+                <li class="list-unstyled text-center">
+                    <img class="rounded mx-auto d-block" src="./assets/img/circle.png" alt="circle" width="35%">
+                    <h2 class="text-center text-muted">Heading</h2>
+                    <p class="text-center text-muted">Some representative placeholder content for the three columns of
+                        text below the carousel. This is the first column.</p>
+                    <a href="#" class="btn btn-secondary ">View details »</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <hr class="container mt-5 mb-4">
+
+    <div class="container pt-5">
+        <div class="row d-flex align-items-center">
+            <div class="col-md-7 w-50">
+                <h2 class="featurette-heading">First featurette heading.
+                    <span class="text-muted">It’ll blow your mind.</span>
+                </h2>
+                <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting
+                    prose here.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="https://picsum.photos/500" width="500 " height="500px" alt="">
+            </div>
+        </div>
+    </div>
+
+    <hr class="container mt-5 mb-4">
+
+    <div class="container pt-5">
+        <div class="row d-flex align-items-center">
+            <div class="col-md-5">
+                <img src="https://picsum.photos/500" width="450 " alt="">
+            </div>
+            <div class="col-md-7 w-50">
+                <h2 class="featurette-heading">Oh yeah, it’s that good.
+                    <span class="text-muted">See for yourself.</span>
+                </h2>
+                <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+            </div>
+            
+        </div>
+    </div>
+
+    
+    <hr class="container mt-5 mb-4">
+
+    <div class="container pt-5">
+        <div class="row d-flex align-items-center">
+            <div class="col-md-7 w-50">
+                <h2 class="featurette-heading">And lastly, this one. <br>
+                    <span class="text-muted">Checkmate.</span>
+                </h2>
+                <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="https://picsum.photos/500" width="500 " height="500px" alt="">
+            </div>
+        </div>
+    </div>
+
+    <hr class="container mt-5 mb-4">
+
+
+    <div class="container pt-5 pb-5">
+        <div class="footer">
+            <ul class="list-unstyled d-flex justify-content-between">
+                <li>
+                    <p>© 2017–2021 Company, Inc. · <a href="#">Privacy  ·  </a> <a href="#">Terms </a></p> 
+                </li>
+                <li>
+                   <a href="#">Back to top</a>
+                </li>
+            </ul>
+        </div> 
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
